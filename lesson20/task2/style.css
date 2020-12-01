@@ -1,0 +1,68 @@
+body {
+  display: flex;
+  height: 100vh;
+}
+
+.fancy-button {
+  width: 150px;
+  height: 50px;
+  border-radius: 4px;
+  background-image: linear-gradient(45deg, yellow, red);
+  border: none;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: auto;
+  animation: move 0.5s, jump 0.5s 0.4s ease-in-out, spin 0.5s, hide 1s 2s forwards;
+  position: relative;
+}
+
+@keyframes move {
+  0% {
+    left: 0;
+    top: 0;
+  }
+  25% {
+    left: 300px;
+    top: 0;
+  }
+  50% {
+    left: 300px;
+    top: 300px;
+  }
+  100% {
+    left: 0;
+    top: 300px;
+  }
+}
+
+@keyframes jump {
+  0% {
+    transform: translateY();
+  }
+  50% {
+    transform: translateY(-40px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes hide {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(2000px);
+  }
+}

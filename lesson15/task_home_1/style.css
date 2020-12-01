@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.image-button {
+  display: block;
+  position: absolute;
+  top: calc(50% - 25px);
+  left: calc(50% - 100px);
+  width: 200px;
+  height: 50px;
+  background-color: bisque;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  opacity: 0.5;
+  cursor: pointer;
+  line-height: 50px;
+  text-align: center;
+}
+
+.image {
+  max-width: 100%;
+  display: block;
+}
+
+.image-button:hover {
+  opacity: 1;
+}

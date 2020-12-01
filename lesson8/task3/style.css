@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin-top: 50px;
+  margin-left: 50px;
+}
+.e1 {
+  background-color: forestgreen;
+  height: 50px;
+  width: 100px;
+  border-radius: 16px;
+  margin-bottom: 50px;
+}
+.e2 {
+  background-color: darkmagenta;
+  height: 50px;
+  width: 100px;
+  border-radius: 50%;
+  margin-bottom: 50px;
+}
+.e3 {
+  background-color: aquamarine;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  margin-bottom: 50px;
+}
+.e4 {
+  height: 100px;
+  width: 100px;
+  border: 50px solid transparent;
+  border-top-color: brown;
+}
