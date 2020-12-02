@@ -39,7 +39,7 @@ span {
   }
   .navigation,
   .product-list {
-    flex-basis: 50%;
+    width: 1.2vh;
   }
 }
 
@@ -50,6 +50,6 @@ span {
   .navigation,
   .product-list,
   .news {
-    flex-basis: beetwen;
+    width: 1.3vh;
   }
 }
