@@ -37,10 +37,19 @@ span {
     display: flex;
     flex-grow: 2;
   }
+  .navigation,
+  .product-list {
+    flex-basis: 50%;
+  }
 }
 
 @media screen and (min-width: 900px) {
   .content {
     display: flex;
+  }
+  .navigation,
+  .product-list,
+  .news {
+    flex-basis: beetwen;
   }
 }
