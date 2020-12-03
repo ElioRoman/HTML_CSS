@@ -9,8 +9,10 @@ html {
 
 .page {
   width: 1400px;
-  height: 710px;
   margin: auto;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .top-section {
@@ -73,7 +75,7 @@ html {
 }
 
 .navigation__arrow {
-  background-image: url(img/Arrow.png);
+  background-image: url(img/arrow.png);
   display: inline-block;
   width: 8px;
   height: 5px;
@@ -93,4 +95,105 @@ html {
   font-size: 18px;
   font-weight: 700;
   color: white;
+}
+/* -------footer------- */
+.footer {
+  display: flex;
+  flex-direction: column;
+  margin-top: auto;
+}
+
+.footer-navigation {
+  height: 338px;
+  width: 1140px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.about-company {
+  margin-top: 43px;
+}
+
+.downloads {
+  margin-top: 25px;
+}
+.downloads__item {
+  margin-right: 10px;
+}
+
+.additional-navigation {
+  margin-top: 60px;
+  margin-left: auto;
+  display: flex;
+}
+
+.additional-navigation__column {
+  margin-right: 29px;
+}
+
+.nav-links {
+  width: 265px;
+}
+.nav-links__title {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0px;
+  margin: 0;
+  color: rgba(43, 41, 45, 1);
+}
+
+.nav-links__list {
+  font-size: 18px;
+  line-height: 30px;
+  color: rgba(43, 41, 45, 0.6);
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-top: 18px;
+}
+
+.footer-description {
+  line-height: 26px;
+  font-size: 18px;
+  width: 360px;
+  height: 85px;
+  margin-top: 26px;
+  color: rgba(43, 41, 45, 0.6);
+}
+
+.footer__line {
+  border-top: 1px solid #2b292d;
+  width: 100%;
+  opacity: 0.1;
+  margin: 0;
+}
+
+.footer-links {
+  width: 1140px;
+  height: 50px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.terms {
+  line-height: 50px;
+
+  font-size: 14px;
+}
+
+.terms__item {
+  text-decoration: none;
+  color: rgba(43, 41, 45, 0.6);
+  margin-right: 22px;
+}
+
+.social-links {
+  margin-left: auto;
+}
+
+.social-links__item {
+  text-decoration: none;
+  margin-left: 20px;
 }
